@@ -1,0 +1,71 @@
+{
+  "Name": "Multi-Sequence Average Templates for Aging and Neurodegenerative Disease Populations",
+  "Identifier": "CDIP",
+  "License": "CC0",
+  "Authors": [
+    "Dadar M",
+    "Camicioli R",
+    "Duchesne S"
+  ],
+  "Acknowledgements": "Data used to generate these templates were obtained from the Comprehensive Assessment of Neurodegeneration and Dementia (COMPASS-ND) cohort of the Canadian Consortium on Neurodegeneration in Aging (CCNA).",
+  "HowToAcknowledge": "Please cite: Dadar M, Camicioli R, Duchesne S. Multi sequence average templates for aging and neurodegenerative disease populations. Sci Data 9, 238 (2022). https://doi.org/10.1038/s41597-022-01341-2",
+  "Funding": [
+    "Canadian Consortium on Neurodegeneration in Aging (CCNA)"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1038/s41597-022-01341-2",
+    "https://doi.org/10.12751/g-node.yoy0z6",
+    "https://doi.org/10.5281/zenodo.5018356",
+    "https://gin.g-node.org/mahsadadar/CDIP_Templates",
+    "https://github.com/vfonov/nist_mni_pipelines"
+  ],
+  "DatasetDOI": "doi:10.12751/g-node.yoy0z6",
+  "BIDSVersion": "1.1.1",
+  "res": {
+    "01": {
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "shape": [
+        182,
+        218,
+        182
+      ],
+      "zooms": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "description": "1 mm isotropic, aligned to MNI152NLin2009cSym"
+    }
+  },
+  "cohort": {
+    "AD": "Alzheimer's Disease (all subjects)",
+    "ADFemale": "Alzheimer's Disease \u2014 Female",
+    "ADMale": "Alzheimer's Disease \u2014 Male",
+    "CIE": "Cognitively Intact Elderly (all subjects)",
+    "CIEFemale": "Cognitively Intact Elderly \u2014 Female",
+    "CIEMale": "Cognitively Intact Elderly \u2014 Male",
+    "FTD": "Frontotemporal Dementia (all subjects)",
+    "FTDFemale": "Frontotemporal Dementia \u2014 Female",
+    "FTDMale": "Frontotemporal Dementia \u2014 Male",
+    "LBD": "Lewy Body Dementia (all subjects)",
+    "MCI": "Mild Cognitive Impairment (all subjects)",
+    "MCIFemale": "Mild Cognitive Impairment \u2014 Female",
+    "MCIMale": "Mild Cognitive Impairment \u2014 Male",
+    "Mixed": "Mixed Dementia (all subjects)",
+    "MixedFemale": "Mixed Dementia \u2014 Female",
+    "MixedMale": "Mixed Dementia \u2014 Male",
+    "SCI": "Subjective Cognitive Impairment (all subjects)",
+    "SCIFemale": "Subjective Cognitive Impairment \u2014 Female",
+    "SCIMale": "Subjective Cognitive Impairment \u2014 Male",
+    "VAD": "Vascular Alzheimer's Disease (all subjects)",
+    "VADFemale": "Vascular Alzheimer's Disease \u2014 Female",
+    "VADMale": "Vascular Alzheimer's Disease \u2014 Male",
+    "VMCI": "Vascular Mild Cognitive Impairment (all subjects)",
+    "VMCIFemale": "Vascular Mild Cognitive Impairment \u2014 Female",
+    "VMCIMale": "Vascular Mild Cognitive Impairment \u2014 Male"
+  }
+}
